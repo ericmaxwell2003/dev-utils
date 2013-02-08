@@ -5,6 +5,7 @@ fi
 
 echo "Setting up svn ignores for maven modules"
 
+
 files="$(find -L -name "pom.xml")"
 echo "Count: $(echo -n "$files" | wc -l)"
 echo "$files" | while read file; do
